@@ -41,7 +41,7 @@ function loadMainVideo()
 {
     var displayFrame = document.querySelector(".displayFrame");
     var video = document.createElement("video");
-    var src = "static/vid.mp4";
+    var src = "static/video.mp4";
 
     video.src = src;
 
