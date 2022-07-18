@@ -22,7 +22,7 @@ function displayPopup() {
     var im = document.createElement("img");
     var btn = document.createElement("button");
 
-    btn.textContent = 'Close';
+    btn.textContent = 'X';
     btn.addEventListener('click', function(){
         var popupDiv = document.querySelector(".popup");
         popupDiv.replaceChildren();

@@ -1,14 +1,15 @@
 body {
     margin: 0;
-    background-image: linear-gradient(to bottom right, purple 50%, pink);
+    background-image: linear-gradient(to bottom right, rgb(54, 11, 54) 50%, rgb(163, 19, 132));
     color: white;
 }
 
 
 .main {
  /* display: flexbox; */
- width: 90%;
+ width: 90vw;
  margin: auto;
+ overflow-x: hidden;
 }
 
 .main > div{
