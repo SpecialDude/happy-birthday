@@ -26,14 +26,14 @@ function displayPopup() {
     btn.addEventListener('click', function(){
         var popupDiv = document.querySelector(".popup");
         popupDiv.replaceChildren();
-        popupDiv.style.visibility = "hidden";
+        popupDiv.style.display = "none";
 
     })
 
     im.src = this.src;
     popupDiv.replaceChildren(im);
     popupDiv.appendChild(btn);
-    popupDiv.style.visibility = "visible";
+    popupDiv.style.display= "block";
 
 }
 
