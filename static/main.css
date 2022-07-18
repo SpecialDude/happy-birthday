@@ -17,7 +17,7 @@ body {
 }
 
 .pageHeader {
-    font-family: 'Tangerine' serif;
+    font-family: 'Tangerine', serif;
 }
 
 
@@ -39,7 +39,7 @@ body {
 }
 
 .galleryContainer {
-    padding: 0px 30px;
+    padding: 0px 10px;
     position: relative;
 }
 
